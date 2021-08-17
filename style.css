@@ -1,0 +1,29 @@
+body {
+   background-color: black;
+   align-content: center;
+}
+
+#title {
+    background-color: black;
+    color: blanchedalmond;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#score {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
