@@ -77,8 +77,8 @@ Events.on(engine, "afterUpdate", () => {
 
 
 // add mouse control
-var mouse = Mouse.create(render.canvas)
-var mouseConstraint = MouseConstraint.create(engine, {
+let mouse = Mouse.create(render.canvas)
+let mouseConstraint = MouseConstraint.create(engine, {
     mouse: mouse,
     constraint: {
         stiffness: 1,
@@ -94,7 +94,7 @@ Composite.add(world, mouseConstraint);
 Render.run(render);
 
 // create runner
-var runner = Runner.create();
+let runner = Runner.create();
 
 // run the engine
 Runner.run(runner, engine);
